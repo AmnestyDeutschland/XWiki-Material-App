@@ -1,2 +1,2 @@
-# XWiki Material App
-Material App für das Amnesty Intranet
+# XWiki Apps
+Apps für das Amnesty Intranet
