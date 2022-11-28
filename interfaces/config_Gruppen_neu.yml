@@ -1,0 +1,4 @@
+matching:
+    doctitle: "Gruppenname"
+objectclass: "XWiki.XWikiGroups"
+parentpage: "wikis/devwiki/spaces/XWiki"

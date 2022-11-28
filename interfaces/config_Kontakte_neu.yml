@@ -1,0 +1,8 @@
+matching:
+    doctitle: "Gruppenname"
+    kontaktart: "Gruppenart"
+    group: 
+        value: "Gruppenname"
+        prefix: "XWiki."
+objectclass: "Kontakte.Code.KontakteClass"
+parentpage: "wikis/devwiki/spaces/Kontakte"

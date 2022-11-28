@@ -1,0 +1,37 @@
+matching:
+    doctitle: "Accountname"
+    kontaktart: "Sub-Typ"
+    group: 
+        value: "Accountname"
+        prefix: "XWiki."
+    email: "E-Mail"
+    telefon: "Telefon"
+    webseite: "Website"
+    adresse:
+        values:
+          - "Straße"
+          - "PLZ"
+          - "Stadt"
+        display: "newlines"
+    anmerkung: 
+        values:
+          - "Öffnungszeiten - Büro"
+          - "Öffnungszeiten - Asylberatung"
+        display: "usetitle"
+    gruppennummer: "General Accounting Unit"
+    parent: "Übergeordneter Account"
+    gruppenid: "Account-ID"
+objectclass: "Kontakte.Code.KontakteClass"
+parentpage: "wikis/devwiki/spaces/Kontakte"
+formatting:
+    PLZ: str
+    Telefon: str
+mappers:
+    kontaktart:
+        Bezirk: bezirk
+        Länderkogruppe: laenderkogruppe
+        lokale Gruppe: lokalegruppe
+        Jugendgruppe: jugendgruppe
+        Themenkogruppe: themenkogruppe
+        Hochschulgruppe: hochschulgruppe
+        Asylgruppe: asylgruppe

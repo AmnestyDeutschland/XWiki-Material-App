@@ -1,0 +1,146 @@
+matching:
+    doctitle: "Gruppe/Bezirk"
+    funktion: "Funktion"
+    anrede: "Anrede"
+    vorname: "Vorname"
+    nachname: "Nachname"
+    email: "E-Mail"
+    telefon: "Telefon"
+    gruppe: 
+        value: "Gruppe/Bezirk"
+        prefix: "XWiki."
+objectclass: "Kontakte.Code.Funktion"
+parentpage: "wikis/devwiki/spaces/Kontakte"
+formatting:
+    Telefon: str
+mappers:
+    funktion:
+        Gruppensprecher_in: gsprecher
+        Finanzen: kasse
+        Gruppensprecher_in-Jugend: gsprecherjugend
+        Bezirkssprecher_in: bsprecher
+        Stellvertretende Bezirkssprecher_in: bsprecher2
+        Vorstand: vorstand
+check:
+    value: "Account-ID"
+    object:
+        name: "Kontakte.Code.KontakteClass/0"
+        entry: "gruppenid"
+#STRUKTUR MAPPER 
+#    Feldname: 
+#        gelesener Wert: neuer Wert
+#ODER MIT BEDINGUNG
+#        gelesener Wert:
+#            neuer Wert:
+#               Referenzfeld: Auswahlwert
+#        SF_Account:
+#            Gruppe_neu: 
+#                Funktion: SF_Affiliation
+mappers:
+    doctitle:
+        Gremien:
+            Lenkungskreis:
+                Funktion: Lenkungskreis
+            Antragskommission:
+                Funktion: Antragskommission
+            Kassenprüfer*innen Sektion:
+                Funktion: Kassenprüfer Sektion
+            Lenkungskreis:
+                Funktion: Lenkungskreis
+            MK-Delegierte:
+                Funktion: MK-Delegierte
+            Nominierungskomitee:
+                Funktion: Nominierungskomitee
+            Wahlkommission JV:
+                Funktion: Wahlkommission JV
+        Vorstand für Flüchtlinge:
+            Vorstand:
+                Funktion: Vorstand
+            FK Asyl:
+                Funktion: FK Asyl
+            Landesbeauftragte für politsche Flüchtlinge:
+                Funktion: Landesbeauftr. f. pol. Flücht.
+        Vorstand für Menschenrechtsbildung und Training:
+            Vorstand:
+                Funktion: Vorstand
+        Vorstand für ehrenamtliches Engagement:
+            Vorstand:
+                Funktion: Vorstand
+            FK Mitgliedschaft:
+                Funktion: FK Mitgliedschaft
+        Vorstandssprecher_in:
+            Vorstand:
+                Funktion: Vorstand
+            FK Internationales:
+                Funktion: FK Internationales
+        stellvertretende_r Vorstandssprecher_in:
+            Vorstand:
+                Funktion: Vorstand
+            FK Internet:
+                Funktion: FK Internet
+        Vorstand für Länder- und Themenarbeit:
+            Vorstand:
+                Funktion: Vorstand
+            FK Länder- und Themenarbeit:
+                Funktion: FK LT
+            Regionalbeauftragte:
+                Funktion: Regionalbeauftragte
+        Vorstand für Öffentlichkeitsarbeit:
+            Vorstand:
+                Funktion: Vorstand
+            FK Social Media:
+                Funktion: FK Social Media
+            FK Öffentlichkeitsarbeit:
+                Funktion: FK Öff
+            Landeslobbybeauftragte:
+                Funktion: Landeslobbybeauftragte_r
+        Vorstand für Finanzen: 
+            Vorstand:
+                Funktion: Vorstand
+            FK Finanzen:
+                Funktion: FK Finanzen     
+    funktion:
+        Bezirk: bezirk
+        Aktionen + Kampagnen: aktionen
+        Arbeit gegen Folter: antifolter
+        Anti Rassismus: antira
+        Asyl + Politische Flüchtlinge: asyl
+        Bezirksrundbrief: news
+        Bezirkssprecher_in: bsprecher
+        Büroorganisation: buero
+        Finanzbeschaffung: finanzen
+        Hochschulgruppenreferent_in: hsg
+        Interessenten-Betreuer_in: interessenten
+        Internet/EDV: internet
+        Jugendreferent_in: jugend
+        Menschenrechtsbildung: mrb
+        Mitglieder- und Gruppenbetreuung: gruppen
+        Mitgliedschaftstraining: training
+        Presse: presse
+        Stellvertretende Bezirkssprecher_in: bsprecher2
+        Urgent actions: uas
+        Gruppensprecher_in: gsprecher
+        Gruppensprecher_in-Jugend: gsprecherjugend
+        Kassenwart_in: kasse
+        Finanzen: kasse
+        Bezirkssprecher_in: bsprecher
+        Datenschutzbeauftragte_R: ruf
+        Kalenderredaktion: ruf
+        Antragskommission: wahl
+        Kassenprüfer Sektion: wahl
+        Lenkungskreis: wahl
+        MK-Delegierte: wahl
+        Nominierungskomitee: wahl
+        Vorstand: wahl
+        Wahlkommission JV: wahl
+        FK Asyl: ruf
+        FK Finanzen: ruf
+        FK Internationales: ruf
+        FK Internet: ruf
+        FK LT: ruf
+        FK Mitgliedschaft: ruf
+        FK Social Media: ruf
+        FK Öff: ruf
+        Landesbeauftr. f. pol. Flücht.: ruf
+        Landeslobbybeauftragte_r: ruf
+        Regionalbeauftragte: ruf

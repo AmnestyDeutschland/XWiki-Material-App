@@ -1,0 +1,69 @@
+sondergruppen -> Gruppen:
+    - FK Asyl
+    - FK Finanzen
+    - FK Internationales
+    - FK Internet
+    - FK LT
+    - FK Mitgliedschaft
+    - FK Social Media
+    - FK Öff
+    - Landesbeauftr. f. pol. Flücht.
+    - Landeslobbybeauftragte_r
+    - Regionalbeauftragte
+
+funktionen gruppen:
+    - Gruppensprecher_in
+    - Gruppensprecher_in-Jugend
+    - Kassenwart_in
+
+gremien -> Gruppe:
+    - Antragskommission
+    - Kassenprüfer Sektion
+    - Lenkungskreis
+    - MK-Delegierte
+    - Nominierungskomitee
+    - Vorstand
+    - Wahlkommission JV
+
+funktionen bezirk:
+    - Aktionen + Kampagnen
+    - Arbeit gegen Folter
+    - Anti Rassismus
+    - Asyl + Politische Flüchtlinge
+    - Bezirksrundbrief
+    - Bezirkssprecher_in
+    - Büroorganisation
+    - Finanzbeschaffung
+    - Finanzen
+    - Hochschulgruppenreferent_in
+    - Interessenten-Betreuer_in
+    - Internet/EDV
+    - Jugendreferent_in
+    - Menschenrechtsbildung
+    - Mitglieder- und Gruppenbetreuung
+    - Mitgliedschaftstraining
+    - Presse
+    - Stellvertretende Bezirkssprecher_in
+    - Urgent actions
+
+personen -> Funktion ohne gruppe:
+    - Datenschutzbeauftragte_R
+    - Kalenderredaktion
+    
+gsprecher=Gruppensprecher*in|kasse=Kassenwart*in|gsprecherjugend=Gruppensprecher*in-Jugend|bsprecher=Bezirkssprecher*in|bsprecher2=Stellvertretende Bezirkssprecher*in|vorstand=Vorstand|sprecher=Sprecher*in
+|wahl=gewählt|ruf=berufen
+aktionen=Referent*in für Aktionen + Kampagnen|antifolter=Referent*in für Arbeit gegen Folter
+|antira=Referent*in für Antirassismus
+|asyl=Referent*in für Asyl + Politische Flüchtlinge
+|news=Referent*in für Bezirksrundbrief
+|buero=Referent*in für Büroorganisation
+|finanzen=Referent*in für Finanzbeschaffung
+|hsg=Hochschulgruppenreferent*in
+|interessenten=Interessenten-Betreuer*in
+|internet=Referent*in für Internet
+|jugend=Jugendreferent*in
+|mrb=Referent*in für Menschenrechtsbildung
+|gruppen=Referent*in für Mitglieder- und Gruppenbetreuung
+|training=Referent*in für Mitgliedschaftstraining
+|presse=Pressereferent*in
+|uas=Referent*in für Urgent actions
